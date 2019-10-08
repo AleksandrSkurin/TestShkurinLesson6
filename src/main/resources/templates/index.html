@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bookstore | Main Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" th:href="@{/css/style.css}" />
+</head>
+<body>
+    <div>
+        <h1>Welcome to the main page of my bookstore!</h1>
+        <br/>
+        <p>
+            If you want to look through booklist, please, click the button below.
+        </p>
+        <input type="button" onclick="location.href='/booklist'" value="Go to booklist" class="btn btn-success"></input>
+    </div>
+</body>
+</html>
